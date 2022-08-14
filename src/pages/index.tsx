@@ -1,7 +1,12 @@
-import type { NextPage } from "next";
+import { NextPage } from "next";
+import styled from "styled-components";
+
+const Title = styled.h1`
+  color: pink;
+`;
 
 const Home: NextPage = () => {
-  return <div>This is the homepage.</div>;
+  return <Title>This is the homepage.</Title>;
 };
 
 export default Home;

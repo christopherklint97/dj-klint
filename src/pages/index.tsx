@@ -1,12 +1,23 @@
 import { NextPage } from "next";
+import Image from "next/image";
 import styled from "styled-components";
+import turntable from "../../public/images/turntable.jpg";
 
 const Title = styled.h1`
   color: pink;
 `;
 
+const Page = styled.section`
+  padding: 1rem;
+`;
+
 const Home: NextPage = () => {
-  return <Title>This is the homepage.</Title>;
+  return (
+    <Page>
+      <Title>This is the homepage.</Title>
+      <Image src={turntable} alt="" placeholder="blur" />
+    </Page>
+  );
 };
 
 export default Home;

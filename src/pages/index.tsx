@@ -4,7 +4,7 @@ import styled from "styled-components";
 import turntable from "../../public/images/turntable.jpg";
 
 const Title = styled.h1`
-  color: pink;
+  color: white;
 `;
 
 const Page = styled.section`

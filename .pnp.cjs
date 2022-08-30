@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/node", "npm:18.7.2"],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@types/styled-components", "npm:5.1.26"],\
             ["eslint", "npm:8.21.0"],\
@@ -603,6 +603,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-react-npm-18.0.17-c4860cbae4-18cae64f5b.zip/node_modules/@types/react/",\
           "packageDependencies": [\
             ["@types/react", "npm:18.0.17"],\
+            ["@types/prop-types", "npm:15.7.5"],\
+            ["@types/scheduler", "npm:0.16.2"],\
+            ["csstype", "npm:3.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:18.0.18", {\
+          "packageLocation": "./.yarn/cache/@types-react-npm-18.0.18-7a5d9ad98c-6d72d35ab3.zip/node_modules/@types/react/",\
+          "packageDependencies": [\
+            ["@types/react", "npm:18.0.18"],\
             ["@types/prop-types", "npm:15.7.5"],\
             ["@types/scheduler", "npm:0.16.2"],\
             ["csstype", "npm:3.1.0"]\
@@ -1328,7 +1338,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dj-klint", "workspace:."],\
             ["@types/node", "npm:18.7.2"],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@types/styled-components", "npm:5.1.26"],\
             ["eslint", "npm:8.21.0"],\
@@ -2863,7 +2873,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/helpers", "npm:0.4.3"],\
             ["@types/fibers", null],\
             ["@types/node-sass", null],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@types/sass", null],\
             ["caniuse-lite", "npm:1.0.30001375"],\
@@ -3250,7 +3260,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-dom-virtual-20d954727b/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
             ["react-dom", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:18.2.0"],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
@@ -3657,7 +3667,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/is-prop-valid", "npm:1.2.0"],\
             ["@emotion/stylis", "npm:0.8.5"],\
             ["@emotion/unitless", "npm:0.7.5"],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@types/react-is", null],\
             ["babel-plugin-styled-components", "virtual:bcd884d7b0181c1dc634b8c2047b67fe1d96fb6e02d908b3cf20d5fe2f3448edfd19629e832530e5c1845c0e2b133fe078299d0e2b366beda6686ad4767ea8ec#npm:2.0.7"],\
@@ -3695,7 +3705,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", null],\
             ["@types/babel-plugin-macros", null],\
             ["@types/babel__core", null],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["babel-plugin-macros", null],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -3896,7 +3906,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-4c0275b15b/0/cache/use-sync-external-store-npm-1.2.0-44f75d2564-5c639e0f8d.zip/node_modules/use-sync-external-store/",\
           "packageDependencies": [\
             ["use-sync-external-store", "virtual:de3336c2366134bfdc53ec676506176bce4cd173295ae956e3739c65e46d8ca6f4e5a99ebd41ba62ad48457b9f129004e391b38251b8cb3bde9c0e9b47e06297#npm:1.2.0"],\
-            ["@types/react", "npm:18.0.17"],\
+            ["@types/react", "npm:18.0.18"],\
             ["react", "npm:18.2.0"]\
           ],\
           "packagePeers": [\

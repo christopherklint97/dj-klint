@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	background: #1E2A36;
 	line-height: 1;
 }
 ol, ul {
@@ -49,6 +50,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body {
-	background: black;
-}`;
+body > * {
+	font-family: 'Roboto', sans-serif;
+}
+`;

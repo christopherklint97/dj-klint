@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:13.0.3"],\
             ["next", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.2.5"],\
+            ["next-i18next", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.0.0"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:18.2.0"],\
@@ -1177,6 +1178,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["core-js", [\
+        ["npm:3.25.0", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-3.25.0-554f4f8ded/node_modules/core-js/",\
+          "packageDependencies": [\
+            ["core-js", "npm:3.25.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["core-js-pure", [\
         ["npm:3.24.1", {\
           "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.24.1-d44f029f92/node_modules/core-js-pure/",\
@@ -1347,6 +1357,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:13.0.3"],\
             ["next", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.2.5"],\
+            ["next-i18next", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.0.0"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:18.2.0"],\
@@ -2250,6 +2261,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["html-parse-stringify", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/html-parse-stringify-npm-3.0.1-5762cd4b01-334fdebd4b.zip/node_modules/html-parse-stringify/",\
+          "packageDependencies": [\
+            ["html-parse-stringify", "npm:3.0.1"],\
+            ["void-elements", "npm:3.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["human-signals", [\
         ["npm:3.0.1", {\
           "packageLocation": "./.yarn/cache/human-signals-npm-3.0.1-0c557ca74a-f252a7769c.zip/node_modules/human-signals/",\
@@ -2264,6 +2285,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/husky-npm-8.0.1-85fede8470-943a73a13d.zip/node_modules/husky/",\
           "packageDependencies": [\
             ["husky", "npm:8.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["i18next", [\
+        ["npm:21.9.1", {\
+          "packageLocation": "./.yarn/cache/i18next-npm-21.9.1-3850f95acb-1bc59c61fb.zip/node_modules/i18next/",\
+          "packageDependencies": [\
+            ["i18next", "npm:21.9.1"],\
+            ["@babel/runtime", "npm:7.18.9"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["i18next-fs-backend", [\
+        ["npm:1.1.5", {\
+          "packageLocation": "./.yarn/cache/i18next-fs-backend-npm-1.1.5-60d9f019a2-71f6c4b0ff.zip/node_modules/i18next-fs-backend/",\
+          "packageDependencies": [\
+            ["i18next-fs-backend", "npm:1.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2901,6 +2941,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["next-i18next", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/cache/next-i18next-npm-12.0.0-1af674e370-8e9d7ce335.zip/node_modules/next-i18next/",\
+          "packageDependencies": [\
+            ["next-i18next", "npm:12.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/next-i18next-virtual-996a77f8fd/0/cache/next-i18next-npm-12.0.0-1af674e370-8e9d7ce335.zip/node_modules/next-i18next/",\
+          "packageDependencies": [\
+            ["next-i18next", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.0.0"],\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["@types/hoist-non-react-statics", "npm:3.3.1"],\
+            ["@types/next", null],\
+            ["@types/react", "npm:18.0.18"],\
+            ["core-js", "npm:3.25.0"],\
+            ["hoist-non-react-statics", "npm:3.3.2"],\
+            ["i18next", "npm:21.9.1"],\
+            ["i18next-fs-backend", "npm:1.1.5"],\
+            ["next", "virtual:cf9b49441cfb2d59f57b21a7f735546e25074d787b5109b819ce516ecbb3c8b4b5d2d048e4511169331efd0c158493ade1ee591bde25c1a4c8047f3cbb3b8efb#npm:12.2.5"],\
+            ["react", "npm:18.2.0"],\
+            ["react-i18next", "virtual:996a77f8fd89c36e3e417c71bc5d47f6bfed2a33d39d5be32e57f03bbfdd9907895feca5114bf69f1d16595b4b30729a03005bdc9e52cccf8e77c7ec7d048c45#npm:11.18.5"]\
+          ],\
+          "packagePeers": [\
+            "@types/next",\
+            "@types/react",\
+            "next",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["normalize-path", [\
         ["npm:3.0.0", {\
           "packageLocation": "./.yarn/cache/normalize-path-npm-3.0.0-658ba7d77f-88eeb4da89.zip/node_modules/normalize-path/",\
@@ -3267,6 +3340,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "packagePeers": [\
             "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-i18next", [\
+        ["npm:11.18.5", {\
+          "packageLocation": "./.yarn/cache/react-i18next-npm-11.18.5-8f01b083c5-c5e4b5b8ec.zip/node_modules/react-i18next/",\
+          "packageDependencies": [\
+            ["react-i18next", "npm:11.18.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:996a77f8fd89c36e3e417c71bc5d47f6bfed2a33d39d5be32e57f03bbfdd9907895feca5114bf69f1d16595b4b30729a03005bdc9e52cccf8e77c7ec7d048c45#npm:11.18.5", {\
+          "packageLocation": "./.yarn/__virtual__/react-i18next-virtual-2f31051fce/0/cache/react-i18next-npm-11.18.5-8f01b083c5-c5e4b5b8ec.zip/node_modules/react-i18next/",\
+          "packageDependencies": [\
+            ["react-i18next", "virtual:996a77f8fd89c36e3e417c71bc5d47f6bfed2a33d39d5be32e57f03bbfdd9907895feca5114bf69f1d16595b4b30729a03005bdc9e52cccf8e77c7ec7d048c45#npm:11.18.5"],\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["@types/i18next", null],\
+            ["@types/react", "npm:18.0.18"],\
+            ["@types/react-dom", null],\
+            ["@types/react-native", null],\
+            ["html-parse-stringify", "npm:3.0.1"],\
+            ["i18next", "npm:21.9.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", null],\
+            ["react-native", null]\
+          ],\
+          "packagePeers": [\
+            "@types/i18next",\
+            "@types/react-dom",\
+            "@types/react-native",\
+            "@types/react",\
+            "i18next",\
+            "react-dom",\
+            "react-native",\
             "react"\
           ],\
           "linkType": "HARD"\
@@ -3921,6 +4030,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/v8-compile-cache-npm-2.3.0-961375f150-adb0a271ea.zip/node_modules/v8-compile-cache/",\
           "packageDependencies": [\
             ["v8-compile-cache", "npm:2.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["void-elements", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/void-elements-npm-3.1.0-4f43780839-0390f81810.zip/node_modules/void-elements/",\
+          "packageDependencies": [\
+            ["void-elements", "npm:3.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
